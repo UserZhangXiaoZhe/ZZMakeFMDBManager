@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZZMakeFMDBManager'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ZZMakeFMDBManager.'
+  s.version          = '0.0.1'
+  s.summary          = 'FMDB数据库管理工具.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+            FMDB数据库管理工具,增删改查使用简单.
                        DESC
 
   s.homepage         = 'https://github.com/UserZhangXiaoZhe/ZZMakeFMDBManager'
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'FMDB'
 end

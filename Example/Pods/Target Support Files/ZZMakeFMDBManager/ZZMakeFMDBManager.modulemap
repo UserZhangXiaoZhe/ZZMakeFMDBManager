@@ -1,0 +1,6 @@
+framework module ZZMakeFMDBManager {
+  umbrella header "ZZMakeFMDBManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

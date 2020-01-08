@@ -1,0 +1,6 @@
+framework module Pods_ZZMakeFMDBManager_Tests {
+  umbrella header "Pods-ZZMakeFMDBManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
